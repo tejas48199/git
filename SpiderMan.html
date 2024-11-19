@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spider Man</title>
+        <style>
+            body{
+                background-color: #0b1522;
+                padding: 8% 0% 0% 1%;
+            }
+            .gallery{
+                margin-left:480px;
+                display: flex;
+                width: 30%;
+                height: 250px;
+                gap: 2px;
+            }
+            .gallery > img {
+                width: 15%;
+                height: 250px;
+                aspect-ratio:1/1;
+                object-fit: cover;
+                border: 2px solid rgba(23, 19, 4, 0.63);
+                border-radius: 5px;
+                transition: all ease 0.5s;
+            }
+            .gallery > img:hover{
+                width: 100%;
+                scale: 1.2;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="gallery">
+            <img src="3s.jpg" alt="image"/>
+            <img src="2s.jpg" alt="image"/>
+            <img src="3ss.jpg" alt="image"/>
+            <img src="4s.jpg" alt="image"/>
+            <img src="5s.jpg" alt="image"/>
+
+        </div>
+    </body>
+</html>
