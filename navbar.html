@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Navbar</title>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-links{
+        list-style: none;
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 15px;
+    }
+    .logo h3{
+        color:white;
+    }
+    .nav-links li{
+        margin-left: 20px;
+    }
+    .nav-links a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 8px 16px;
+        transition:background 0.3s ;
+    }
+    .nav-links a:hover{
+        color: white;
+        background-color: red;
+        border-radius: 5px;
+    }
+    .header{
+        text-align: center;
+        background-color: yellow;
+        padding: 50px;
+        font-size: 30px;
+    }
+</style>
+    </head>
+    <body>
+<nav class="navbar">
+    <div class="logo">
+        <h3>My Website</h3>
+    </div>
+    <ul class="nav-links">
+        <li><a href="navbar.html" target="_blank">Home</a></li>
+        <li><a href="" target="_blank">About</a></li>
+        <li><a href="gallery.html" target="_blank">Gallery</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="header">
+<h2>Welcome To My Website</h2>
+</div>
+    </body>
+</html>
